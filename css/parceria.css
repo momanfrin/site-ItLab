@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* Formatação do cabeçalho*/
+
+.menu{
+    background-color: dodgerblue;
+    margin: 0px;
+    padding: 10px;
+    height: 60px;
+    display: block;
+    position: relative;
+    text-align:right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color:dodgerblue;
+    text-decoration: underline;
+}
+
+.imgmenu{
+    position: absolute;
+    display: inline-block;
+    margin-inline: -1200px;
+    height: 50px;
+}
+
+
+
+/* Rodapé */
+footer {
+    display: inline-block;
+	text-align: center;
+    background-color: dodgerblue;
+	padding: 40px 0;
+}
+.copyright {
+   background-color: dodgerblue;
+   font-size: 13px;
+   margin: 20px 0 0;
+   color: black;
+}
+
+.imgrodape {
+    height: 60px;
+    margin: 0px;
+    margin-top: 15px;
+}

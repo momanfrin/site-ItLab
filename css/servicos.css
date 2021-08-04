@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+.menu{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    height: 60px;
+    display: block;
+    position: relative;
+    text-align:right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color:dodgerblue;
+    text-decoration: underline;
+}
+
+.imgmenu{
+    position: absolute;
+    display: inline-block;
+    margin-inline: -1200px;
+    height: 50px;
+}
+
+/* **************************************************************** */
+
+.carousel-item {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+/*Formatação de imagens*/
+
+#album-fotos {
+    width: 860px;
+    margin: 0 auto;
+    padding: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    list-style: none;
+}
+
+#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    /* vou usar um comando de transição para que fique esteticamente agradável a ampliação da imagem */
+    transition: all .3s ease-in;
+}
+
+#album-fotos li:hover {
+    transform: scale(1.5);
+}
+
+#album-fotos li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color:rgba(0, 0, 0, .3);
+    font-size: 9pt;
+    /* esse line-height fará com que a legenda desça!!! */
+    line-height: 370px;
+    padding: 5px;
+
+}
+
+#album-fotos li:hover span {
+    opacity: 1;
+}
+
+#servicos_page {
+    background-color: black;
+}
+
+#descricao_servico {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#descricao_servico h1 {
+    padding-bottom: 30px;
+}
+
+#foto01 {
+    background: url(../img/desenvolvimento.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 190px 190px;
+    background-color:white;
+}
+
+#foto01:hover{
+    background-position: center;
+    background-size: 190px 190px;
+}
+
+#foto02 {
+    background: url(../img/fabrica.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 190px 190px;
+    background-color:white;
+}
+
+#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 190px 190px;
+}
+
+#foto03 {
+    background: url(..//img/alocacao.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 190px 190px;
+    background-color:white;
+}
+
+#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 190px 190px;
+}
+
+#foto04 {
+    background: url(../img/Instituicao.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 190px 190px;
+    background-color:white;
+}
+
+#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 190px 190px;
+}
+
+#foto05 {
+    background: url(../img/industria.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 190px 190px;
+    background-color:white;
+}
+
+#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 190px 190px;
+}
+
+#foto06 {
+    background: url(../img/varejo.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 190px 190px;
+    background-color:white;
+}
+
+#foto06:hover{
+    background-position: center;
+    background-size: 190px 190px;
+}
+
+footer {
+    display: inline-block;
+	text-align: center;
+    background-color: black;
+	padding: 40px 0;
+}
+.copyright {
+   background-color: black;
+   font-size: 13px;
+   margin: 20px 0 0;
+   color: white;
+}
+
+.imgrodape {
+    height: 60px;
+    margin: 0px;
+    margin-top: 15px;
+}

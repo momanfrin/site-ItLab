@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+.menu{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    height: 60px;
+    display: block;
+    position: relative;
+    text-align:right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color:dodgerblue;
+    text-decoration: underline;
+}
+
+.imgmenu{
+    position: absolute;
+    display: inline-block;
+    margin-inline: -1200px;
+    height: 50px;
+}
+
+/* Config nav */
+
+.imgclientes {
+    display: block;
+    height: 500px;
+    margin-left: 80px;
+}
+.nav {
+    background-color: black;
+}
+
+#conteudo {
+    display: block;
+    background-color: black;
+}
+#clientes {
+    color: white;
+}
+
+/*  */
+#body {
+    background-color: black;
+}
+#clientes {
+    background-color: black;
+}
+#conteudo {
+    width: 1000px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+}
+#frame-spec {
+    width: 405px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+    margin-left: 17px;
+}
+
+#frame-spec::-webkit-scrollbar{
+    display: none;
+}
+#body p ,h1 {
+    color: white;
+}
+
+footer {
+    display: inline-block;
+	text-align: center;
+    background-color: black;
+	padding: 40px 0;
+}
+.copyright {
+   background-color: black;
+   font-size: 13px;
+   margin: 20px 0 0;
+   color: white;
+}
+
+.imgrodape {
+    height: 60px;
+    margin: 0px;
+    margin-top: 15px;
+}

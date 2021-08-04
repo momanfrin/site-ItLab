@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+#main {
+    background-color: black;
+}
+
+.menu{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    height: 60px;
+    display: block;
+    position: relative;
+    text-align:right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color:dodgerblue;
+    text-decoration: underline;
+}
+
+.imgmenu{
+    position: absolute;
+    display: inline-block;
+    margin-inline: -1200px;
+    height: 50px;
+}
+
+/* ************************************************************* */
+
+#redes_sociais {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+/* ************************************************************* */
+
+#fContato {
+    text-align: center;
+}
+
+form {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1350px; 
+    background-position:center;
+}
+
+#usuario {
+    color: white;
+    text-align: left;
+    margin-left: 500px;
+}
+
+#mensagem {
+    color: white;
+}
+
+#botao {
+    margin-bottom: 5px;
+}
+
+#mapa {
+    margin-left: 340px;
+    background-color: black;
+    display: flex; 
+}
+
+.endereco p{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+/* ************************************************************* */
+
+footer {
+    display: inline-block;
+	text-align: center;
+    background-color: black;
+	padding: 40px 0;
+}
+
+.copyright {
+   background-color: black;
+   font-size: 13px;
+   padding-top: 0px;
+   color: white;
+}
+
+.imgrodape {
+    height: 60px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
